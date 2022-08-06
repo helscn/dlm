@@ -18,8 +18,8 @@
 ?>
 <?php
 
-class SynoDLMSearch{
-        private $qurl  = 'https://service.dtn-tech.com/dlm/proxy/https://yts.mx/api/v2/list_movies.json?query_term=%s&sort_by=rating&limit=50';
+class SynoDLMSearchYTS{
+        private $qurl  = 'http://service.dtn-tech.com/dlm/proxy/https://yts.mx/api/v2/list_movies.json?query_term=%s&sort_by=rating&limit=50';
 
         public function __construct() {
 
@@ -51,8 +51,8 @@ class SynoDLMSearch{
                         $datetime=$torrent["date_uploaded"];
                         $page=$movie["url"];
                         $hash=$torrent["hash"];
-                        $seeds=$torrent["seeds"];; 
-                        $leechs=$torrent["peers"];;
+                        $seeds=$torrent["seeds"];
+                        $leechs=$torrent["peers"];
                         $category="电影";
                         $plugin->addResult($title, $download, $size, $datetime, $page, $hash, $seeds, $leechs, $category);
                         $res++;

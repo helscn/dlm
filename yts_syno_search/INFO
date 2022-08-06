@@ -1,10 +1,10 @@
 {
-"name": "ytsyify",
-"displayname": "YTS.MX",
+"name": "YTS_Movies",
+"displayname": "YTS高清电影",
 "description": "YTS YIFY 高清电影",
 "version": "1.0",
 "site": "https://yts.mx",
 "module": "search.php",
 "type": "search",
-"class": "SynoDLMSearch"
+"class": "SynoDLMSearchYTS"
 }
