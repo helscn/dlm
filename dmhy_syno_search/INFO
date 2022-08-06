@@ -1,0 +1,10 @@
+{
+"name": "dmhy.org",
+"displayname": "动漫花园",
+"description": "动漫花园资源网，可以下载新番动画、剧场版电影及动漫音乐。",
+"version": "1.0",
+"site": "http://share.dmhy.org/",
+"module": "search.php",
+"type": "search",
+"class": "SynoDLMSearch"
+}
